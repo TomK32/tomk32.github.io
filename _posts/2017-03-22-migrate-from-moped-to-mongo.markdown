@@ -1,6 +1,6 @@
 ---
-title:  "Migrate from Moped to the ruby mongo driver"
-date:   2017-03-22 13:24:53 +0100
+title: Migrate from Moped to the ruby mongo driver
+date: 2017-03-22
 categories: moped mongoid mongodb 
 ---
 It clearly has been some time since Mongoid 5 has been released,

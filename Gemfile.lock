@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/TomK32/jekyll-theme-apollonia.git
-  revision: 0835f169e709dafc95517f02163acbac324fb485
+  revision: dd3e0b28e1709bbf1f1725adbaa9830f47d16a09
   specs:
     jekyll-theme-apollonia (0.1.0)
       jekyll (~> 3.4)
@@ -44,6 +44,13 @@ GEM
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
+    puma (3.8.2)
+    rack (1.6.5)
+    rack-jekyll (0.5.0)
+      jekyll (>= 1.3)
+      listen (>= 1.3)
+      rack (~> 1.5)
+    rake (12.0.0)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
@@ -60,6 +67,9 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-haml
   jekyll-theme-apollonia!
+  puma
+  rack-jekyll
+  rake
   tzinfo-data
 
 RUBY VERSION

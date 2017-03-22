@@ -23,3 +23,9 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - cconfig.ru
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - Procfile
+  - Rakefile

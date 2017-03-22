@@ -2,6 +2,7 @@
 title: One-sided has_and_belongs_to_many relations in Mongoid
 date: 2017-03-20
 categories: mongoid mongodb
+layout: post
 ---
 
 Are those commonly used anyways? In a relation database you'd do have a `group_members` table where-as

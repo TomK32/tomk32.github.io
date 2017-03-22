@@ -1,7 +1,8 @@
 ---
 title: Migrate from Moped to the ruby mongo driver
 date: 2017-03-22
-categories: moped mongoid mongodb 
+tags: moped mongoid mongodb
+layout: post
 ---
 It clearly has been some time since Mongoid 5 has been released,
 yes there's even Mongoid 6 but as our app still runs on Rails 4.x that's not an option yet.

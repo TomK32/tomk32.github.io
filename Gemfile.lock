@@ -1,8 +1,8 @@
-PATH
-  remote: jekyll-theme-apollonia
+GIT
+  remote: https://github.com/TomK32/jekyll-theme-apollonia.git
+  revision: 0835f169e709dafc95517f02163acbac324fb485
   specs:
     jekyll-theme-apollonia (0.1.0)
-      breakpoint (~> 2.7.1)
       jekyll (~> 3.4)
 
 GEM
@@ -10,9 +10,6 @@ GEM
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
-    breakpoint (2.7.1)
-      sass (~> 3.3)
-      sassy-maps (< 1.0.0)
     colorator (1.1.0)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
@@ -53,8 +50,6 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
-    sassy-maps (0.4.0)
-      sass (~> 3.3)
     tilt (2.0.7)
 
 PLATFORMS
@@ -69,4 +64,3 @@ DEPENDENCIES
 
 RUBY VERSION
    ruby 2.2.5p319
-

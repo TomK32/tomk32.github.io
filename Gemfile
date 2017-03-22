@@ -19,7 +19,7 @@ gem "jekyll", "~> 3.4"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem 'jekyll-haml'
-  gem 'jekyll-theme-apollonia', github: 'tomk32/jekyll-theme-apollonia'
+  gem 'jekyll-theme-apollonia', git: 'https://github.com/TomK32/jekyll-theme-apollonia.git'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

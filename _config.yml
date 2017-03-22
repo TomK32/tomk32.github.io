@@ -1,0 +1,25 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Thomas R. Koll
+email: tomk32@gmail.com
+description: Ruby on Rails developer, hacker, maker, sailor, dad
+motto: just a geek trying to change the world
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+external_profiles:
+  github: http://github.com/TomK32
+  stackoverflow: http://stackoverflow.com/users/story/336392
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-apollonia
+gems:
+  - jekyll-feed
+  - jekyll-haml
+  #- jekyll-theme-apollonia
+exclude:
+  - Gemfile
+  - Gemfile.lock

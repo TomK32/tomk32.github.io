@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/TomK32/jekyll-theme-apollonia.git
-  revision: dd3e0b28e1709bbf1f1725adbaa9830f47d16a09
+  revision: 1242ec107bc24b029f2077adf4ed32adb2f10445
   specs:
     jekyll-theme-apollonia (0.1.0)
       jekyll (~> 3.4)

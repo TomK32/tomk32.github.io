@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{{ content }}
+
+%section#posts
+  {% for post in site.posts %}
+  .post
+    %a{href: "{{ post.url | relative_url }}" } {{ post.title }}
+    %small.meta {{ post.date | date_to_long_string }}
+  {% endfor %}

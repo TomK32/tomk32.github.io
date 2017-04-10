@@ -15,7 +15,7 @@ external_profiles:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-apollonia
+# theme: jekyll-theme-apollonia
 gems:
   - jekyll-feed
   - jekyll-haml

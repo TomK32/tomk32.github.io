@@ -1,0 +1,138 @@
+$fa-font-path: '/assets/fonts/';
+
+$color-link: #3333CC;
+$bgcolor-head: #222222;
+$color-head: #22DD22;
+$color-text: #111111;
+$grey-text-color: #555555;
+$font-large: 'Amaranth', sans-serif;
+$font-regular: 'Sarala', sans-serif;
+
+$box-padding: 2em;
+
+body {
+  font-family: $font-regular;
+  font-size: 15px;
+  color: $color-text;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: $color-link;
+  &:hover, &:active {
+    text-decoration: underline;
+    color: $color-link + #222222;
+  }
+}
+
+p {
+  margin: 0.5em 0 2em 0;
+}
+
+h1, h2, h3 {
+  margin: 0.5em 0 0 0;
+  small {
+    font-size: 10px;
+  }
+}
+
+#head {
+  background-color: $bgcolor-head;
+  color: #FFFFFF - $bgcolor-head;
+  .site-title {
+    font-size: 3em;
+    font-family: $font-large;
+    a {
+      color: $color-head !important;
+      text-decoration: none !important;
+    }
+  }
+  .site-description {
+    font-size: 1.2em;
+    font-style: italic;
+    opacity: 0.6;
+  }
+  a {
+    color: inherit;
+    opacity: 0.8;
+  }
+}
+
+footer {
+  background-color: $bgcolor-head;
+  color: $color-head;
+  a {
+    color: $color-head !important;
+    text-decoration: underline !important;
+  }
+}
+
+.meta {
+  color: $grey-text-color;
+  font-style: italic;
+}
+
+.intro {
+  font-size: 1.3em;
+  font: $font-large;
+}
+
+$screen-width: 50em;
+
+@media (max-width: $screen-width) {
+  .inner {
+    padding: $box-padding / 2;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  #head {
+    text-align: center;
+    .site-description {
+      font-size: 0.9em;
+    }
+  }
+  #posts .meta {
+    display: none;
+  }
+}
+
+@media (min-width: $screen-width) {
+  #head, nav, #content, footer {
+    .inner {
+      padding: $box-padding 0;
+      max-width: $screen-width;
+      margin: 0 auto;
+    }
+  }
+  nav .inner {
+    padding: 0.2em 0;
+    text-align: center;
+    ul {
+      padding: 0;
+      margin: $box-padding / 4 auto;
+      li {
+        display: inline;
+        margin: 0 1em 0 0;
+      }
+    }
+  }
+  #head .inner {
+    padding: $box-padding 0;
+    max-width: $screen-width - 2 * $box-padding;
+  }
+  footer .inner {
+    max-width: $screen-width - 2 * $box-padding;
+  }
+}
+
+
+.profile {
+  &.github {
+    //span { display: none; }
+  }
+}
+
+

@@ -29,3 +29,5 @@ exclude:
   - vendor
   - Procfile
   - Rakefile
+
+theme: jekyll-theme-minimal

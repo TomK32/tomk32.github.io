@@ -1,0 +1,56 @@
+!!!
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    <link rel='stylesheet', href="{{ '/assets/apollonia.css' | relative_url }}" />
+    <title>{% if page.title %}{{ page.title }} → {% endif %}{{ site.title }} </title>
+    <!-- http://t.co/dKP3o1e -->
+    <meta name="HandheldFriendly", content="True" />
+    <meta name="MobileOptimized", content="320" />
+    <meta name="viewport", content="width=device-width, initial-scale=1.0" />
+    <meta "http-equiv"="Content-Type", content="text/html; charset=UTF-8" />
+  </head>
+
+  <body>
+    <div id="head">
+      <div class="inner">
+        <div class="site-title">
+          <a href="{{ site.base_url }}/"}>{{ site.title }}</a>
+        </div>
+        <span class="site-description">{{ site.description }}</span>
+        <div>
+        {% if hide_profiles != true %}
+        {% for profile in site.external_profiles %}
+        <a href="{{ profile[1] }}", title="{{ profile[0] }}", class="profile {{ profile[0] }}">
+          <span>{{ profile[0] }}</span>
+        </a>
+        {% endfor %}
+        {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <div class="inner">
+        {% if show_navigation != false %}
+        <ul>
+        {% for p in site.pages %}
+        {% if p.title and p.parent == nil or p.parent != page.id %}
+        <li><a href="{{ p.url }}"}>{{ p.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+      </div>
+    </nav>
+    <div id="content">
+      <div class="inner">
+        {{ content }}
+      </div>
+    </div>
+    <footer>
+    <div class="inner">
+      &copy; {{ site.time | date: '%Y' }} {{ site.title }}
+      &bull;
+      <a href="mailto:{{site.email}}">mail me</a>
+    </div>
+  </body>
+</html>

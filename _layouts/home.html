@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<section id="posts">
+  {% for post in site.posts %}
+  <div class="post">
+    <a href="{{ post.url | relative_url }}" }>{{ post.title }}</a>
+    <small class="meta">{{ post.date | date_to_long_string }}</small>
+  {% endfor %}
+  </div>
+</section>

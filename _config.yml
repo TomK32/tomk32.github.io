@@ -20,8 +20,6 @@ markdown: kramdown
 # theme: jekyll-theme-apollonia
 gems:
   - jekyll-feed
-  - jekyll-haml
-  #- jekyll-theme-apollonia
 exclude:
   - Gemfile
   - Gemfile.lock

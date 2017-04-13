@@ -25,8 +25,8 @@ a, a:visited {
   }
 }
 
-p {
-  margin: 0.5em 0 2em 0;
+p, ul, ol, dl {
+  margin: $box-padding / 4 0 $box-padding / 2 0;
 }
 
 h1, h2, h3 {
@@ -81,7 +81,10 @@ $screen-width: 50em;
 
 @media (max-width: $screen-width) {
   .inner {
-    padding: $box-padding / 2;
+    padding: ($box-padding / 4) ($box-padding / 2);
+  }
+  nav .inner {
+    padding-bottom: 0;
   }
   nav ul {
     margin: 0;

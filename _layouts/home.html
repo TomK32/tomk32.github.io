@@ -5,10 +5,13 @@ layout: default
 {{ content }}
 
 <section id="posts">
-  {% for post in site.posts %}
-  <div class="post">
-    <a href="{{ post.url | relative_url }}" }>{{ post.title }}</a>
-    <small class="meta">{{ post.date | date_to_long_string }}</small>
-  {% endfor %}
-  </div>
+  <h2>Blog posts</h2>
+  <ul>
+    {% for post in site.posts %}
+    <li class="post">
+      <a href="{{ post.url | relative_url }}" }>{{ post.title }}</a>
+      <small class="meta">{{ post.date | date_to_long_string }}</small>
+    </li>
+    {% endfor %}
+  </ul>
 </section>

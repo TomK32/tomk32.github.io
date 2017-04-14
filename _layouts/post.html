@@ -1,28 +1,30 @@
 ---
 layout: default
 ---
-<h1>{{ page.title}}</h1>
-<div class="meta">
-  {% if page.date %}
-  <span class="created-at">
-    {{ page.date | date_to_long_string }}
-  </span>
-  {% endif %}
-  {% if page.categories.size != 0 %}
-  <span class="categories">
-    &bull;
-    Categories:
-    {% for category in page.categories %}
-    {{ category }}
-    {% endfor %}
-  </span>
-  {% endif %}
-  {% if page.tags.size != 0 %}
-  <span class="tags">
-    &bull;
-    {{ 'Tags' | pluralize }}
-    {{ page | tags }}
-  </span>
-  {% endif %}
-</div>
-{{ content }}
+<article>
+  <h1>{{ page.title}}</h1>
+  <div class="meta">
+    {% if page.date %}
+    <span class="created-at">
+      {{ page.date | date_to_long_string }}
+    </span>
+    {% endif %}
+    {% if page.categories.size != 0 %}
+    <span class="categories">
+      &bull;
+      Categories:
+      {% for category in page.categories %}
+      {{ category }}
+      {% endfor %}
+    </span>
+    {% endif %}
+    {% if page.tags.size != 0 %}
+    <span class="tags">
+      &bull;
+      {{ 'Tags' | pluralize }}
+      {{ page | tags }}
+    </span>
+    {% endif %}
+  </div>
+  {{ content }}
+</article>

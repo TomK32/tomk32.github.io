@@ -17,6 +17,7 @@ external_profiles:
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 gems:
   - jekyll-feed
 exclude:

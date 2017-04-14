@@ -69,6 +69,13 @@ p code {
     color: inherit;
     opacity: 0.8;
   }
+
+  #profile-image {
+    width: 7em;
+    height: 7em;
+    vertical-align: middle;
+    float: right;
+  }
 }
 
 footer {
@@ -104,7 +111,17 @@ footer {
   }
 }
 
+@media (max-width: $screen-width*0.6) {
+  #head {
+    #profile-image {
+      display: none;
+    }
+  }
+}
 @media (max-width: $screen-width) {
+  .intro {
+    font-size: 1.2em;
+  }
   ul, p, section, article {
     line-height: 1.6em;
   }
@@ -132,11 +149,21 @@ footer {
     .site-description {
       font-size: 0.9em;
     }
+    position: relative;
+    #profile-image {
+      margin-top: 0.1em;
+      position: absolute;
+      right: 1em;
+      top: 9%;
+      //margin-bottom: 2em; // to move the tagline and social links into the center
+      width: auto;
+      height: 80%;
+
+    }
   }
   #posts ul {
     li a {
       display: block;
-      width: 100%;
       background-color: #EEE;
       border-radius: $border-radius;
       padding: 0 $border-radius;

@@ -9,12 +9,14 @@
     <meta charset="utf-8" />
     <meta name="viewport", content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
     <meta "http-equiv"="Content-Type", content="text/html; charset=UTF-8" />
   </head>
 
   <body>
     <div id="head">
       <div class="inner">
+        <img src="{{ site.profile_image | relative_url }}" width="80px" height="80px" id="profile-image" />
         <div class="site-title">
           <a href="{{ site.base_url }}/"}>{{ site.title }}</a>
         </div>

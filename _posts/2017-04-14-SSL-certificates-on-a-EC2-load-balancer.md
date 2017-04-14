@@ -9,7 +9,7 @@ tags:
 ---
 
 {:.intro}
-  If your SSL certificate is a few years old most likely you definitely paid money for it and quite some.
+  If your SSL certificate is a few years old most you definitely paid money for it and quite some.
   Thankfully those days are over and we get free certs now. But, your certs are a bit dated like mine and about to run out.
   Here's some tips for you.
 

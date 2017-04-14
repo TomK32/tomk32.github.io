@@ -13,7 +13,8 @@ tags:
   Thankfully those days are over and we get free certs now. But, your certs are a bit dated like mine and about to run out.
   Here's some tips for you.
 
-At our [hackerspace](http://devlol.org) we run [letsencrypt](https://letsencrypt.org), fully automatic of course, and the only server missing out is an
+At our [hackerspace](http://devlol.org) we run [letsencrypt](https://letsencrypt.org) which did indeed [change the game
+drastically](https://torquemag.io/2016/10/why-lets-encrypt-has-completely-changed-the-ssl-landscape/), fully automatic of course, and the only server missing out is an
 internal server operating our door lock. hard to get a cert for that but what I've read so far is you give it an external
 name lock.devlol.org, add that domain to your letsencryt cert, put it on the internal server and let the internal nameserver
 route lock.devlol.org to that internal server. No one's gonna be the wiser.

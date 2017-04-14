@@ -21,8 +21,13 @@ layout: default
     {% if page.tags.size != 0 %}
     <span class="tags">
       &bull;
-      {{ 'Tags' | pluralize }}
-      {{ page | tags }}
+      Tags:
+      {% for tag in page.tags %}
+        {{ tag | tag_link }}
+        {% if tag != page.tags.last %}
+        &mdash;
+        {% endif %}
+      {% endfor %}
     </span>
     {% endif %}
   </div>

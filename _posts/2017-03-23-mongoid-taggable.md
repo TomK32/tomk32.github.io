@@ -2,6 +2,7 @@
 title: mongoid_taggable with aggregation for Mongoid 5
 tags: mongoid gem
 layout: post
+date: 2017-03-23
 ---
 
 Turned out that my [migration earlier this week]({% post_url 2017-03-22-migrate-from-moped-to-mongo %}) ran into a few bumps with `mongoid_taggable`.

@@ -17,7 +17,6 @@ external_profiles:
 
 # Build settings
 markdown: kramdown
-# theme: jekyll-theme-apollonia
 gems:
   - jekyll-feed
 exclude:
@@ -29,3 +28,5 @@ exclude:
   - Rakefile
 
 theme: jekyll-theme-minimal
+tag_page_layout: tag_page
+tag_page_dir: tag

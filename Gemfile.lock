@@ -21,6 +21,8 @@ GEM
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
+    jekyll-tagging (1.1.0)
+      nuggets
     jekyll-theme-minimal (0.0.4)
       jekyll (~> 3.3)
     jekyll-watch (1.5.0)
@@ -31,6 +33,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
+    nuggets (1.5.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
@@ -54,6 +57,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.4)
   jekyll-feed (~> 0.6)
+  jekyll-tagging
   jekyll-theme-minimal
   puma
   rack-jekyll

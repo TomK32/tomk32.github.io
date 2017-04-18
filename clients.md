@@ -11,10 +11,10 @@ title: Clients
 ## [Naiku](https://naiku.net) <small class="meta">(since 2010, Ruby On Rails, nodejs)</small>
 Delivered the prototype for their assessment platform and kept on going. Not a unicorn but a solid success with interesting aspects like a short peaks during the school day.
 
-## [Bittex](http://bittex.at) <small class="meta">(2017, Ruby On Rails)</small>
-A 24hr rescue mission after the original developer went AWOL. Besides restoring everything from backup I improved a few things.
+## [Bittex](http://portal.bittex.at) <small class="meta">(2017, Ruby On Rails)</small>
+A 24hr rescue mission after the original developer went AWOL. Besides moving/restoring everything from backup to a new server I improved a few things.
 
-## [Ahima reports](https://ahimareports.com) <small class="meta">(2016, Ruby On Rails)</small>
+## [Ahima reports](https://www.ahimareports.com) <small class="meta">(2016, Ruby On Rails)</small>
 A small side-project with the Naiku team. Generate reports (both HTML and PDF) from student results.
 
 ## Schoolcamp <small class="meta">(2010, Ruby On Rails)</small>

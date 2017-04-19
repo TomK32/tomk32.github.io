@@ -4,13 +4,13 @@
     <link rel='stylesheet' href="{{ '/assets/apollonia.css' | relative_url }}" />
     <title>{% if page.title %}{{ page.title }} → {% endif %}{{ site.title }} </title>
     <!-- http://t.co/dKP3o1e -->
-    <meta name="HandheldFriendly", content="True" />
-    <meta name="MobileOptimized", content="320" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
     <meta charset="utf-8" />
-    <meta name="viewport", content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-    <meta "http-equiv"="Content-Type", content="text/html; charset=UTF-8" />
+    <meta "http-equiv"="Content-Type" content="text/html; charset=UTF-8" />
   </head>
 
   <body>
@@ -24,7 +24,7 @@
         <div>
         {% if hide_profiles != true %}
         {% for profile in site.external_profiles %}
-        <a href="{{ profile[1] }}", title="{{ profile[0] }}", class="profile {{ profile[0] }}">
+        <a href="{{ profile[1] }}" title="{{ profile[0] }}" class="profile {{ profile[0] }}">
           <span>{{ profile[0] }}</span>
         </a>
         {% endfor %}

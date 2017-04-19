@@ -3,6 +3,8 @@
   <head>
     <link rel='stylesheet' href="{{ '/assets/apollonia.css' | relative_url }}" />
     <title>{% if page.title %}{{ page.title }} → {% endif %}{{ site.title }} </title>
+    <meta name="keywords" content="{{ page.tags || site.keywords }}">
+    <meta name="description" content="{{ page.description || site.description }}">
     <!-- http://t.co/dKP3o1e -->
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
@@ -15,7 +17,7 @@
   <body>
     <div id="head">
       <div class="inner">
-        <img src="{{ site.profile_image | relative_url }}" width="80" height="80" id="profile-image" alt="profile image" />
+        <a href="{{site.profile_image | relative_url}}"><img src="{{ site.profile_image_small | relative_url }}" width="80" height="80" id="profile-image" alt="profile image" /></a>
         <div class="site-title">
           <a href="{{ site.base_url }}/">{{ site.title }}</a>
         </div>

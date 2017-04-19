@@ -6,10 +6,12 @@
 title: Thomas R. Koll
 email: tomk32@gmail.com
 description: Ruby on Rails developer, hacker, maker, sailor, dad
+keywords: Ruby on Rails,Ruby,Javascript,developer,freelancer
 motto: just a geek trying to change the world
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tomk32.herokuapp.com" # the base hostname & protocol for your site, e.g. http://example.com
 profile_image: /assets/tomk32.jpg
+profile_image_small: /assets/tomk32_small.jpg
 external_profiles:
   github: http://github.com/TomK32
   stackoverflow: http://stackoverflow.com/users/story/336392

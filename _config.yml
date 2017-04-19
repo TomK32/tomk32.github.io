@@ -15,6 +15,7 @@ external_profiles:
   stackoverflow: http://stackoverflow.com/users/story/336392
   linkedin: https://www.linkedin.com/in/thomas-r-koll-78150775/
   thingiverse: http://www.thingiverse.com/TomK32
+  twitter: http://twitter.com/TomK32
 
 # Build settings
 markdown: kramdown

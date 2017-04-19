@@ -5,7 +5,7 @@ tags:
   - EC2
   - SSL certificates
   - Server
-  - DevOP
+  - DevOp
 ---
 
 {:.intro}

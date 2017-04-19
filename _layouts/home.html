@@ -9,7 +9,7 @@ layout: default
   <ul>
     {% for post in site.posts %}
     <li class="post">
-      <a href="{{ post.url | relative_url }}" }>{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       <small class="meta">{{ post.date | date_to_long_string }}</small>
     </li>
     {% endfor %}

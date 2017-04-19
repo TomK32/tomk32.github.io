@@ -2,9 +2,10 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   <head>
     <link rel='stylesheet' href="{{ '/assets/apollonia.css' | relative_url }}" />
+    <link rel='stylesheet' media="print" href="{{ '/assets/print.css' | relative_url }}" />
     <title>{% if page.title %}{{ page.title }} → {% endif %}{{ site.title }} </title>
-    <meta name="keywords" content="{{ page.tags || site.keywords }}">
-    <meta name="description" content="{{ page.description || site.description }}">
+    <meta name="keywords" content="{%if page.tags %}{{page.tags}}{% else %}{{site.keywords }}{% endif %}">
+    <meta name="description" content="{%if page.description %}{{page.description}}{% else %}{{site.description }}{% endif %}">
     <!-- http://t.co/dKP3o1e -->
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />

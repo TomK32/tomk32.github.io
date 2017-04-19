@@ -10,15 +10,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-    <meta "http-equiv"="Content-Type" content="text/html; charset=UTF-8" />
   </head>
 
   <body>
     <div id="head">
       <div class="inner">
-        <img src="{{ site.profile_image | relative_url }}" width="80px" height="80px" id="profile-image" />
+        <img src="{{ site.profile_image | relative_url }}" width="80" height="80" id="profile-image" alt="profile image" />
         <div class="site-title">
-          <a href="{{ site.base_url }}/"}>{{ site.title }}</a>
+          <a href="{{ site.base_url }}/">{{ site.title }}</a>
         </div>
         <span class="site-description">{{ site.description }}</span>
         <div>
@@ -39,9 +38,10 @@
         <ul>
         {% for p in site.pages %}
         {% if p.title and p.parent == nil or p.parent != page.id %}
-        <li><a href="{{ p.url }}"}>{{ p.title }}</a></li>
+        <li><a href="{{ p.url }}">{{ p.title }}</a></li>
         {% endif %}
         {% endfor %}
+        </ul>
         {% endif %}
       </div>
     </nav>
@@ -49,12 +49,13 @@
       <div class="inner">
         {{ content }}
       </div>
-    </div>
+
     <footer>
     <div class="inner">
       &copy; {{ site.time | date: '%Y' }} {{ site.title }}
       &bull;
       <a href="mailto:{{site.email}}">mail me</a>
     </div>
+    </footer>
   </body>
 </html>

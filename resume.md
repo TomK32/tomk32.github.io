@@ -3,11 +3,11 @@ layout: page
 title: Resume
 ---
 
-This is my resume, for work experience have a look at my [clients]({{ 'clients' | relative_url }}).
-
 I was born in 1982 in Bavaria, studied at Salzburg University for a few years before professional work drew too much of my time. In those years I also did a lot of editing on the early Wikipedia, became admin in 2004, published a bi-weekly PDF mag and many more things
 
 Besides work I enjoy programming video games, hacking small electronics projects (arduino, EPS8266, IoT, etc), sailing, photography. In 2015 life changed a lot with our first child.
+
+To learn more about my previous work and projects, have a look at my [clients]({{ 'clients' | relative_url }}).
 
 ## Skillset / Things I'm really good at
 * Ruby on Rails since 2007

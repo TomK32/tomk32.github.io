@@ -29,6 +29,9 @@ Not a ruby job, but none-the-less interesting it was to work in a conglomerate o
 ## [lomography community website](https://www.lomography.com/homes) <small class="meta">(summer 2009, Ruby On Rails)</small>
 Vienna is certainly a vibrant city and the three months with the lomo team are something to remember. I did misc tasks, from getting the performance up (2008 ruby/apache meant regular restarts for the leaking app processes!) to new features.
 
+## opntables
+Offline nowadays but the code still lives on github: https://github.com/kohlhofer/open-tables
+
 ## touchlocal.co.uk <small class="meta">(early 2008, Ruby On Rails)</small>
 Working on the Albert Embankment next to the iconic MI6 building and watching the sun set between the towers of Battersea power station makes you almost think that coding for a large business directory is work. The first weeks I got the test suite back running again.
 
@@ -38,3 +41,8 @@ Advertising agency with a web design department. My first contact with AJAX
 ## subnet <small class="meta">(2007)</small>
 One of those small culture support organisations that popped up in the 90s. Worked on various projects, including a first Rails app that turned into a complete failure.
 
+## personal projects
+
+* Before I knew what a blog was I wrote a blogging software in PHP, hello 2001: https://sourceforge.net/projects/mysecretdiary/
+* plasticairships was one of my more mature rails projects in 2008 https://github.com/TomK32/plasticairships
+* You think 4ormat but I remember [photostre.am](https://github.com/TomK32/photostre.am) which I created back in 2008 to aggregate my flickr photos into a nice looking website

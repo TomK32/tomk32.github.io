@@ -3,7 +3,7 @@ title:
 layout: home
 ---
 {:.intro}
-  You are looking for a Ruby on Rails developer to create a prototype of your new idea, or to join your small team? Or did you run into an emergency and need help quick?
+  You are looking for a Ruby on Rails developer to create a prototype of your new idea, or to join your small team remotely? Or did you run into an emergency and need help quick?
   [Read the resume]({{ 'resume.html' | relative_url }}) and [send me an email](mailto:tomk32@gmail.com).
 
 

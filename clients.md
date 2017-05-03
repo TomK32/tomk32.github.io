@@ -29,8 +29,11 @@ Not a ruby job, but none-the-less interesting it was to work in a conglomerate o
 ## [lomography community website](https://www.lomography.com/homes) <small class="meta">(summer 2009, Ruby On Rails)</small>
 Vienna is certainly a vibrant city and the three months with the lomo team are something to remember. I did misc tasks, from getting the performance up (2008 ruby/apache meant regular restarts for the leaking app processes!) to new features.
 
-## opntables
-Offline nowadays but the code still lives on github: https://github.com/kohlhofer/open-tables
+## adva-cma <small class="meta">(2009)</small>
+An early Ruby on Rails framework I did develop various features for
+
+## opntables <small class="meta">(2009, Ruby on Rails)</small>
+Aggregator, offline nowadays but the [code](https://github.com/kohlhofer/open-tables) still lives on github
 
 ## touchlocal.co.uk <small class="meta">(early 2008, Ruby On Rails)</small>
 Working on the Albert Embankment next to the iconic MI6 building and watching the sun set between the towers of Battersea power station makes you almost think that coding for a large business directory is work. The first weeks I got the test suite back running again.

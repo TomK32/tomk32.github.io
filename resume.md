@@ -3,9 +3,9 @@ layout: page
 title: Resume
 ---
 
-I was born in 1982 in Bavaria, studied at Salzburg University for a few years before professional work drew too much of my time. In those years I also did a lot of editing on the early Wikipedia, became admin in 2004, published a bi-weekly PDF mag and many more things
+Born in 1982 in the Bavaria apls, studied at University of Salzburg before professional work drew me in. In those years I was an active Wikipedia admin, published a bi-weekly PDF magazine and many more things. I started programming in the last 90ies, enjoyed writing small websites in PHP before moving on to Ruby on Rails and larger web applications.
 
-Besides work I enjoy programming video games, hacking small electronics projects (arduino, EPS8266, IoT, etc), sailing, photography. In 2015 life changed a lot with our first child.
+Besides work I enjoy programming ismall video games, making electronics projects (arduino, EPS8266, IoT, etc), photography and recently started sailing. In 2015 life changed with our first child.
 
 To learn more about my previous work and projects, have a look at my [clients]({{ 'clients' | relative_url }}).
 
@@ -13,11 +13,11 @@ To learn more about my previous work and projects, have a look at my [clients]({
 * Ruby on Rails since 2007
 * Javascript, Coffeescript, jQuery, nodejs, backbonejs, responsive design, some angularjs ...
 * HTML, CSS, HAML, SASS, LaTeX...
-* Amazon EC2 (e.g. Autoscaling)
+* Amazon EC2 (e.g. autoscaling)
 * git (since 2008)
-* SCRUM
+* scrum, agile development
 * Python, Lua, some C ([Arduino, IoT, ESP8266]({% link maker.md %}) and C# (Unity3D)
-* running a hackerspace (together with awesome people)
+* running a [hackerspace](https://devlol.org) (together with awesome people)
 
 ## Interesting weblinks
 * [Linkedin](https://www.linkedin.com/in/thomas-r-koll-78150775/)

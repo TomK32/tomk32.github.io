@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Coveralls report in dev environment

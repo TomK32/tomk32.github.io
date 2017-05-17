@@ -11,6 +11,9 @@ title: Clients
 ## [Naiku](https://naiku.net) <small class="meta">(since 2010, Ruby On Rails, nodejs)</small>
 Delivered the prototype for their assessment platform and kept on going. Not a unicorn but a solid success with interesting aspects like a short peaks during the school day.
 
+## [lomography](https://lomography.com) <small class="meta">(2017), Ruby on Rails)</small>
+It's very rare to return to a company after 9 years, I did. Didn't find any of my 2008 code yet :(
+
 ## [A Song a Day](https://www.asongaday.co/) <small class="meta">(2017, Ruby On Rails)</small>
 A small project for music lovers (like myself) that needed some TLC after being dormant for some months.
 

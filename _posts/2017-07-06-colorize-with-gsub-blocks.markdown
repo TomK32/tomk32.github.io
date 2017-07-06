@@ -19,7 +19,7 @@ require 'colorize'
 
 host = 'https://www.indiehackers.com'
 forum = Nokogiri::HTML(open(host + '/forum'))
-interests = Regexp.new('(Show IH|Tips)', :i)
+interests = Regexp.new('(Show IH|Tips|grow)', :i)
 
 forum.css('a.thread__details').each do |thread|
   title = thread.css('.thread__title').first.inner_text.strip

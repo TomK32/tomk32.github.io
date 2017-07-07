@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Colorize with gsub blocks
+title: Colorize your script output with gsub blocks
 ---
 
 Roughly once a month I put Rails aside and write a little script, in Ruby obviously, and when I do that I love using [colorize](https://github.com/fazibear/colorize) to make my script's output more fancy.

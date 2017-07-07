@@ -105,7 +105,9 @@ footer {
   }
   .meta {
     float: left;
-    width: 8em;
+    width: 9em;
+    overflow: hidden;
+    white-space: nowrap;
     text-align: right;
     padding-right: 1em;
   }

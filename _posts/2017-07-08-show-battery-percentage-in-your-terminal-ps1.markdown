@@ -31,4 +31,4 @@ The result looks like this:
 
     13:37 42% $
 
-
+Add the code into your `.profile` to make it stick.

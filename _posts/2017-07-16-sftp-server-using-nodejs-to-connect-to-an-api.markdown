@@ -2,6 +2,7 @@
 layout: post
 title: "sftp server using nodejs to connect to an API"
 date: "2017-07-16 11:26:52 +0200"
+tags: nodejs sftp request api
 ---
 
 It's a long time since I uttered the term FTP and it wasn't part of a joke.

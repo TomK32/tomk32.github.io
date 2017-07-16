@@ -5,8 +5,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Thomas R. Koll
 email: tomk32@gmail.com
-description: Ruby on Rails developer, hacker, maker, sailor, dad
-keywords: Ruby on Rails,Ruby,Javascript,developer,freelancer
+description: Ruby on Rails developer available for projects remotely and in Austria
+keywords: Ruby on Rails,Ruby,Javascript,developer,freelancer,linz,austria,germany,hacker
 motto: just a geek trying to change the world
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tomk32.github.io" # the base hostname & protocol for your site, e.g. http://example.com

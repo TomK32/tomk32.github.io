@@ -18,7 +18,7 @@ users an account on the server, not even a restricted one.
 [Brady](http://www.uberbrady.com)'s [node-sftp-server](https://github.com/BriteVerify/node-sftp-server)
 allowed me to write a simple sftp server that accepts files, but doesn't do any other operaetions like listing
 uploaded files. Whenever an upload is completed it will start the second phase and upload the file to
-my application's API.
+my application's API using the [request](https://github.com/request/request) library.
 
 ```js
 "use strict";

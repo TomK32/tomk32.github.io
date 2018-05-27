@@ -41,7 +41,7 @@
         {% if show_navigation != false %}
         <ul>
         {% for p in site.pages %}
-        {% if p.title and p.parent == nil or p.parent != page.id %}
+        {% if p.skip_nav != true and p.title and p.parent == nil or p.parent != page.id %}
         <li><a href="{{ p.url }}">{{ p.title }}</a></li>
         {% endif %}
         {% endfor %}
@@ -60,6 +60,8 @@
       &copy; {{ site.time | date: '%Y' }} {{ site.title }}
       &bull;
       <a href="mailto:{{site.email}}">mail me</a> if you need a freelance webdeveloper in Linz, Austria.
+      &bull;
+      <a href="/impressum.html">Impressum</a>
     </div>
     </footer>
   </body>

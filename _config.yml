@@ -10,6 +10,11 @@ keywords: Ruby on Rails,Ruby,Javascript,developer,freelancer,linz,austria,german
 motto: just a geek trying to change the world
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tomk32.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+collections:
+  presentations:
+    output: true
+
 profile_image: /assets/tomk32.jpg
 profile_image_small: /assets/tomk32_small.jpg
 external_profiles:
@@ -38,3 +43,16 @@ exclude:
 theme: jekyll-theme-minimal
 tag_page_layout: tag_page
 tag_page_dir: tag
+
+
+# The Reveal theme
+reveal_theme: black.css
+reveal_transition: default
+reveal_theme_path: /reveal.js/css/theme/
+reveal_notes_server: false
+# Additional reveal.js options
+reveal_options:
+# Additional reveal.js dependencies
+reveal_dependencies:
+reveal_path: /reveal.js/
+

@@ -1,0 +1,190 @@
+---
+title: Ruby Domain Specific Languages (DSL)
+layout: presentation
+reveal_theme: night.css
+---
+
+# &nbsp;
+
+
+
+# Domain
+# &nbsp;
+# &nbsp;
+
+
+
+# Domain
+# Specific
+# &nbsp;
+
+
+
+# Domain
+# Specific
+# Languages
+
+
+
+## DSL mit Ruby
+
+
+<small>
+_Thomas R. Koll_
+<br>
+https://tomk32.github.io
+</small>
+
+
+
+### Was ist eine DSL
+- Sprache für einen spezielle Aufgabe <!-- .element: class=\"fragment\" -->
+- Kann auf einer anderen Sprache aufbauen <!-- .element: class=\"fragment\" -->
+- Grenze zu kompletten Sprachen ist verwischt <!-- .element: class=\"fragment\" -->
+- Manche Host-Languages sind besser geeignet <!-- .element: class=\"fragment\" -->
+
+
+
+### Beispiele
+- SuperCollider:
+<small>`{ SinOsc.ar(800, 0, 0.1) + PinkNoise.ar(0.01) }.play;`</small>
+- unix tools wie make, sed, grep <!-- .element: class=\"fragment\" -->
+- GraphViz, POVRay, Lindenmayer System <!-- .element: class=\"fragment\" -->
+- SQL, HTML <!-- .element: class=\"fragment\" -->
+- Lua in AAA Videogames <!-- .element: class=\"fragment\" -->
+
+
+
+### GraphViz
+<img src="vor2018-code.png" height="500px"/>
+
+
+
+
+### GraphViz
+<img src="vor2018.png" height="500px"/>
+
+
+
+### Was zeichnet sie aus
+- Deklarativ und expressiv
+- Kaum Redundanz
+- Limitierter Umfang <!-- .element: class=\"fragment\" -->
+- Ablauf ohne Eingaben <!-- .element: class=\"fragment\" -->
+- Daten werden üblicherweise gespeichert <!-- .element: class=\"fragment\" -->
+- Leichter zu verstehen <!-- .element: class=\"fragment\" -->
+
+
+
+### Und in ruby
+- blocks, yield <!-- .element: class=\"fragment\" -->
+- method_missing <!-- .element: class=\"fragment\" -->
+- Überall zu finden <!-- .element: class=\"fragment\" -->
+
+
+
+### Beispiele in Ruby
+- Rake <!-- .element: class=\"fragment\" -->
+- RSpec <!-- .element: class=\"fragment\" -->
+- capistrano <!-- .element: class=\"fragment\" -->
+- xmlbuilder <!-- .element: class=\"fragment\" -->
+
+
+
+#### Rake
+<pre>
+desc "export tracker data"
+task "export_projects" do
+  stage = Tracker.get_current_stage
+  positions = Tracker.get_positions(stage)
+  file = File.open("vor-positions-stage-#{stage}.txt", 'a')
+  positions.each do |boat|
+    file.puts [boat.date.to_s, boat.name, boat.rank, boat.lon, boat.lat].join(',')
+  end
+  file.close
+end
+
+$ rake export_projects
+</pre>
+
+
+
+### RSpec
+<pre>
+class Sailboat
+  def keel
+    return @keel ||= Keel.new
+  end
+end
+describe "Sailboat" do
+  it "comes with a keel" do
+    expect(Sailboat.new.keel).to be_a(Keel)
+  end
+end
+</pre>
+
+
+
+### Mein Anwendungsfall, vorher
+<img src="ledger-template-long.png">
+
+
+
+### und mit einer DSL
+<img src="ledger-template.png" height="500px">
+
+
+
+### `TemplateProcessor`
+- Methoden für einige Objekte
+- `method_missing`
+- `blocks` mit `instance_eval`
+
+
+
+### `Class`
+<img src="template-processor-class.png">
+
+
+
+### `method_missing`
+setzt Attribute auf `transaction` oder `ledger`
+<img src="template-processor-method-missing.png">
+
+
+
+### `Ledger` und `Account`
+<img src="template-processor-ledger-account.png">
+
+
+
+### Kontext und `instance_eval`
+<img src="template-processor-transaction-entry.png">
+
+
+
+### Nachlese
+<small>
+
+- https://www.infoq.com/news/2007/06/dsl-or-not/
+- https://www.leighhalliday.com/creating-ruby-dsl
+- https://tomk32.github.io/presentations/de/ruby-dsl.html
+
+</small>
+
+
+
+_if you did a good design, you would have this!_
+
+<small>Blaine Buxton<small>
+
+
+
+
+<style>
+  img {
+    border-width: 1px !important;
+    border-color: #666 !important;
+    padding: 12px;
+  }
+</style>

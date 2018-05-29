@@ -1,0 +1,32 @@
+ digraph G {
+  compound=true;
+  Alicante [shape=box,fontsize=20];
+  "The Hague" [shape=box,fontsize=20];
+  subgraph cluster0 {
+    Alicante -> Lisbon [penwidth=1.65,weight=6]
+    Cardiff -> Gothenburg [penwidth=1.23,weight=7];
+    Gothenburg -> "The Hague" [penwidth=0.52,weight=9];
+  }
+  Lisbon -> "Cape Town" [penwidth=7];
+  "Cape Town" -> Melbourne [penwidth=6.5];
+  subgraph cluster1 {
+    "Hong Kong";
+    Guangzhou;
+  }
+  subgraph cluster2 {
+    Auckland;
+    Melbourne;
+  }
+  "Hong Kong" -> Guangzhou [penwidth=0.1,weight=10];
+  Guangzhou -> "Hong Kong" [penwidth=0.1,weight=10];
+  "Hong Kong" -> Auckland [penwidth=5.6];
+  Auckland -> Itajaí [penwidth=7.5];
+  Melbourne -> "Hong Kong" [penwidth=6];
+  Itajaí -> Newport [penwidth=5.5];
+  Newport -> Cardiff [penwidth=3.3,weight=4];
+}
+
+
+
+
+

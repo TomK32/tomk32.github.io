@@ -1,24 +1,8 @@
 ---
-title: Ruby Domain Specific Languages (DSL)
+title: Domain Specific Languages (DSL) in Ruby
 layout: presentation
 reveal_theme: night.css
 ---
-
-# &nbsp;
-
-
-
-# Domain
-# &nbsp;
-# &nbsp;
-
-
-
-# Domain
-# Specific
-# &nbsp;
-
-
 
 # Domain
 # Specific
@@ -27,7 +11,6 @@ reveal_theme: night.css
 
 
 ## DSL mit Ruby
-
 
 <small>
 _Thomas R. Koll_
@@ -117,8 +100,9 @@ class Sailboat
   end
 end
 describe "Sailboat" do
+  subject { Sailboat.new }
   it "comes with a keel" do
-    expect(Sailboat.new.keel).to be_a(Keel)
+    expect(subject.keel).to be_a(Keel)
   end
 end
 </pre>
@@ -177,8 +161,6 @@ setzt Attribute auf `transaction` oder `ledger`
 _if you did a good design, you would have this!_
 
 <small>Blaine Buxton<small>
-
-
 
 
 <style>

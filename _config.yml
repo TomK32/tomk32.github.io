@@ -39,6 +39,11 @@ exclude:
   - vendor
   - Procfile
   - Rakefile
+  - reveal.js/demo.html
+  - reveal.js/test
+  - reveal.js/plugin/markdown/example.md
+  - reveal.js/plugin/markdown/example.html
+  - reveal.js/css/theme/README.md
 
 theme: jekyll-theme-minimal
 tag_page_layout: tag_page

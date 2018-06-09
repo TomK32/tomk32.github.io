@@ -1,5 +1,5 @@
 ---
-title: Rails: Select tag with day of the week
+title: "Rails: Select tag with day of the week"
 tags:
   - rails
   - i18n

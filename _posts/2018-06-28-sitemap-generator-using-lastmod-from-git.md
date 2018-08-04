@@ -6,7 +6,7 @@ tags:
   - git
 ---
 
-For my new own project [Budgetfuchs](https://budgetfuchs.de) I added [sitemap_generator](https://github.com/kjvarga/sitemap_generator) even though it's just a few pages that I want indexed for now.
+For my new project [Budgetfuchs](https://budgetfuchs.de) I added [sitemap_generator](https://github.com/kjvarga/sitemap_generator) even though it's just a few pages that I want indexed for now.
 But my application is multi-lingual and letting the search engines know about that comes handy.
 
 One thing I noticed when looking at the output was the `lastmod` date being the same for all entries. Can't be hard to fix that by pulling the date from the git repo I though.

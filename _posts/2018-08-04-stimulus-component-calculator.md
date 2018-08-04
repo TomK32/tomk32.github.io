@@ -6,7 +6,7 @@ tags:
   - git
 ---
 
-Here's a small stimulusjs component at I wrote for budgetfuchs.
+Here's a small stimulusjs component at I wrote for [budgetfuchs](https://budgetfuchs.de?c=tomk32).
 
 It calulates the value of an input with basic arithmetic like 2 + 10/3
 and shows the result in the `result` target.

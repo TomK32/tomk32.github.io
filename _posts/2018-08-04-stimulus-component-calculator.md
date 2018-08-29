@@ -1,9 +1,7 @@
 ---
 title: "Stimulus component: Calculator for input fields"
 tags:
-  - rails
-  - sitemap
-  - git
+  - stimulusjs
 ---
 
 Here's a small stimulusjs component at I wrote for [budgetfuchs](https://budgetfuchs.de?c=tomk32).

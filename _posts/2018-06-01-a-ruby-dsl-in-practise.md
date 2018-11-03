@@ -9,12 +9,11 @@ tags:
 ---
 I did this <a href="{{ 'presentations/de/ruby-dsl' | absolute_url }}">talk on DSLs with focus on Ruby a few days ago, in German</a>, but I figure that interested developers might benefit if I share some more knowledge and the concrete implementation I did for my specific problem.
 
-The software I'm working on is a personal finance web app and to make the sign-up process and first steps as easy as possible I'm using prorammatic templates that I can use to fill out a few forms during sign-up. The users will have several of those templates to choose from.
+The software I'm working on is a personal finance web app and to make the sign-up process and first steps as easy as possible I'm using programmatic templates that I can use to fill out a few forms during sign-up. The users will have several of those templates to choose from.
 
 I shorted the code a little bit in functionality and it's MIT licensed if you want to use it.
-dd
 
-Let's start with the data input file, it is Ruby code and extremly easy to read and understand:
+Let's start with the data input file, it is Ruby code and extremely easy to read and understand:
 
 ```ruby
 ledger "Ledger for #{Date.today.year}" do
@@ -49,7 +48,7 @@ ledger "Ledger for #{Date.today.year}" do
     entry 'Expenses:Living:Rent', 650.23
     entry 'Assets:Bank:Current'
   end
-  recurring_transaction 'Envolopes, weekly: 1, day: :monday do
+  recurring_transaction 'Envolopes', weekly: 1, day: :monday do
     entry 'Expenses:Food', 40
     entry 'Expenses:Fun', 20
     entry 'Expenses:Other', 30

@@ -4,7 +4,7 @@ tags:
   - stimulusjs
 ---
 
-Here's a small stimulusjs component at I wrote for [budgetfuchs](https://budgetfuchs.de?c=tomk32).
+Here's a small stimulusjs component at I wrote for [budget fox](https://budget-fox.com?utm_source=tomk32.githbub.io).
 
 It calulates the value of an input with basic arithmetic like 2 + 10/3
 and shows the result in the `result` target.
@@ -24,7 +24,9 @@ value while the user is typing numbers and restored on leaving the input.
 
 The data-action has three event listeners simply because stimulus is opinionated about
 what events to listen to. We need more to update the result on key-strokes (keyup)
-and update it when the users hits enter to submit the form (keydown)
+and update it when the users hits enter to submit the form (keydown).
+
+Here's the `coffeescript` source for the controller.
 
 ```coffeescript
 import { Controller } from "stimulus"

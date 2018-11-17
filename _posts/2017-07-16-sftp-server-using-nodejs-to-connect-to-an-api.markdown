@@ -8,7 +8,9 @@ tags: nodejs sftp request api
 It's a long time since I uttered the term FTP and it wasn't part of a joke.
 But SFTP (SSH FTP) is of course a different beast, ssh giving it the security required
 and it was designed from the ground up.
-The confusion in the name is very like with Java and JavaScript.
+
+> **You need a SFTP server implemented for special customer requests?**  
+> Don't hesitate to [contact me via email](mailto:tomk32@gmail.com).
 
 Still, when you already have the nice REST API for your webservice and a customer
 comes along asking for uploading files in a way they are used to, SFTP might be high on the list.

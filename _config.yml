@@ -11,6 +11,18 @@ motto: just a geek trying to change the world
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tomk32.de"
 
+
+defaults:
+  -
+    scope:
+      type: 'page'
+    values:
+      layout: 'page'
+  -
+    scope:
+      type: 'post'
+    values:
+      layout: 'post'
 collections:
   presentations:
     output: true

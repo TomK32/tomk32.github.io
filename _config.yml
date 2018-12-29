@@ -9,7 +9,7 @@ description: Ruby on Rails developer available for projects remotely and in Aust
 keywords: Ruby on Rails,Ruby,Javascript,developer,freelancer,linz,austria,germany,hacker
 motto: just a geek trying to change the world
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tomk32.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tomk32.de"
 
 collections:
   presentations:

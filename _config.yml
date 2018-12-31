@@ -30,11 +30,11 @@ collections:
 profile_image: /assets/tomk32.jpg
 profile_image_small: /assets/tomk32_small.jpg
 external_profiles:
-  github: http://github.com/TomK32
-  stackoverflow: http://stackoverflow.com/users/story/336392
+  github: https://github.com/TomK32
+  stackoverflow: https://stackoverflow.com/users/story/336392
   linkedin: https://www.linkedin.com/in/thomas-r-koll-78150775/
-  thingiverse: http://www.thingiverse.com/TomK32
-  twitter: http://twitter.com/TomK32
+  thingiverse: https://www.thingiverse.com/TomK32
+  twitter: https://twitter.com/TomK32
 
 # Build settings
 markdown: kramdown

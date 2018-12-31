@@ -10,7 +10,7 @@ keywords: Ruby on Rails,Ruby,Javascript,developer,freelancer,linz,austria,german
 motto: just a geek trying to change the world
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tomk32.de"
-
+lang: en
 
 defaults:
   -

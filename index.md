@@ -7,5 +7,7 @@ layout: home
   [Read the resume]({{ 'resume.html' | relative_url }}) and [send me an email](mailto:tomk32@gmail.com).
 
 
-Thomas has into webdevlopment since 2001, focusing on building and maintaining applications, his first website dating back even further. In 2001 he used PHP to write a simple text-file based blog-software (it's still on sourceforge) before moving on to Ruby on Rails in 2007. In 2010 he added MongoDB to his toolkit and has this NoSQL database in production for a client since 2010.
+My first steps into webdevlopment were back in 2001, focusing on building and maintaining applications. His first website dating back even further. In 2001 he used PHP to write a simple text-file based blog-software (it's still on sourceforge) before moving on to Ruby on Rails in 2007. In 2010 he added MongoDB to his toolkit and has this NoSQL database in production for a client since 2010.
 
+In 2018 I started working on a personal project: <a href="https://budget-fox.com?utm_campaign=TomK32&utm_source=tomk32.de">Budget-Fox</a> (german: <a href="https://budgetfuchs.de?utm_campaign=TomK32&utm_source=tomk32.de">Budgetfuchs</a>) which is a personal budgeting webapp with
+focus on collaboration (think couples and families) and double-entry accounting in the back.

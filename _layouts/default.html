@@ -6,7 +6,7 @@ layout: compress
   <head>
     <link rel='stylesheet' href="{{ '/assets/apollonia.css' | relative_url }}" />
     <link rel='stylesheet' media="print" href="{{ '/assets/print.css' | relative_url }}" />
-    <title>{% if page.title %}{{ page.title }} → {% endif %}{{ site.title }} </title>
+    <title>{% if page.title %}{{ page.title }} ░ {% endif %}{{ site.title }} </title>
     <meta name="keywords" content="{%if page.tags %}{{page.tags}}{% else %}{{site.keywords }}{% endif %}">
     <meta name="description" content="{%if page.description %}{{page.description}}{% else %}{{site.description }}{% endif %}">
     <!-- http://t.co/dKP3o1e -->
@@ -48,7 +48,6 @@ layout: compress
         <li><a href="{{ p.url }}">{{ p.title }}</a></li>
         {% endif %}
         {% endfor %}
-        <li><a href="https://budgetfuchs.de">Budgetfuchs is my budget/ledger app</a></li>
         </ul>
         {% endif %}
       </div>

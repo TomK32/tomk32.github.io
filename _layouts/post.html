@@ -33,3 +33,22 @@ layout: default
   </div>
   {{ content }}
 </article>
+
+<div style="display: flex; justify-content: space-between; margin: 5em 0 3em 0;">
+  {% if page.previous.url %}
+    <a href="{{page.previous.url}}" title="Previous post">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a href="{{page.next.url}}" title="Next post">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>
+
+<hr>
+
+<h4>Random posts</h3>
+<ul>
+{% assign random_posts = site.posts | sample:4 %}
+{% for post in random_posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{post.date | date_to_long_string}})</li>
+{% endfor %}
+</ul>

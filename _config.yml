@@ -15,12 +15,12 @@ url: "https://tomk32.de"
 defaults:
   -
     scope:
-      type: 'page'
+      type: 'pages'
     values:
       layout: 'page'
   -
     scope:
-      type: 'post'
+      type: 'posts'
     values:
       layout: 'post'
 collections:
@@ -41,7 +41,7 @@ markdown: kramdown
 highlighter: rouge
 sass:
   style: compressed
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
 exclude:

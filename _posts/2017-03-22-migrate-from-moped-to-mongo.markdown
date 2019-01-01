@@ -11,7 +11,7 @@ The main reason why I'm doing this, the failure handling in Moped for
 when one for my replica nodes fails is shit. Plain as that,
 the app's performance slumps immediately when one node fails and that's never acceptable.
 
-So, here's some stuff do you have to check for when upgrading, besides the [https://docs.mongodb.com/ruby-driver/master/tutorials/5.2.0/mongoid-upgrade/](very few things mentioned in the official docs) of course. You will also find the [http://www.rubydoc.info/github/mongodb/mongoid](API docs) most helpful.
+So, here's some stuff do you have to check for when upgrading, besides the [very few things mentioned in the official docs](https://docs.mongodb.com/ruby-driver/master/tutorials/5.2.0/mongoid-upgrade/) of course. You will also find the [API docs](http://www.rubydoc.info/github/mongodb/mongoid) most helpful.
 
 As usual: Having a lot of tests will help you, **write specs**. I can't repeat it often enough. In our case only 5% failed after updating the gem, I expected more in this 6+ yrs old application but a few commits later I saw the green light as a wiser man.
 
@@ -82,8 +82,8 @@ Everyone's Gemfile is different, we have 10 mongoid gems in use, here's the trou
 ### mongoid_taggable
 
 Now this is a old gem, left outside by it's original developer and quite a few people took it
-home and prepped it for yet another version of mongoid. We were using the version from [https://github.com/colibri-software/mongoid_taggable](colibri-software)
+home and prepped it for yet another version of mongoid. We were using the version from [colibri-software](https://github.com/colibri-software/mongoid_taggable)
 through-out mongoid 4 but no mongoid 5 yet and I didn't need those few extra functions anyways.
-We'll see if the one from [https://github.com/astjohn/mongoid_taggable/tree/mongoid5](Adam) will stick.
+We'll see if the one from [Adam](https://github.com/astjohn/mongoid_taggable/tree/mongoid5) will stick.
 
 

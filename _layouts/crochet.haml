@@ -1,0 +1,16 @@
+---
+layout: compress
+---
+!!! 5
+%html{lang: "{{ page.lang | default: site.lang }}"}
+  %head
+    %title "{% if page.title %}{{ page.title }} ░ {% endif %}{{ site.title }}"
+    %meta{'charset' => 'utf-8'}/
+    %meta{name: 'google', content: 'notranslate'}/
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
+    %link{rel: 'stylesheet', href: '{{ "/assets/crochet.css" | relative_url }}'}
+  %body
+    {{ content }}
+
+    %footer
+      &copy; 2019 Thomas R. Koll

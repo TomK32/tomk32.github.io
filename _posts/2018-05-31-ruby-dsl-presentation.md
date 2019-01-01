@@ -14,5 +14,5 @@ Hier zur Nachlese der Vortrag:
 <a href="{{ 'presentations/de/ruby-dsl' | absolute_url }}">{{ 'presentations/de/ruby-dsl' | absolute_url }}</a>
 
 
-* [https://www.martinfowler.com/articles/languageWorkbench.html](Language Workbenches: The Killer-App for Domain Specific Languages? (Martin Fowler))
-* [https://www.infoq.com/news/2007/06/dsl-or-not](Werner Schuster on what's a DSL or not)
+* [Language Workbenches: The Killer-App for Domain Specific Languages? (Martin Fowler)](https://www.martinfowler.com/articles/languageWorkbench.html)
+* [Werner Schuster on what's a DSL or not](https://www.infoq.com/news/2007/06/dsl-or-not)

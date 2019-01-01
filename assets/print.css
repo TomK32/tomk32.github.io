@@ -1,3 +1,10 @@
 #head, footer, nav {
   display: none
 }
+.prev-next {
+  display: none;
+}
+
+.random-posts {
+  display: none;
+}

@@ -224,4 +224,26 @@ footer {
   }
 }
 
+@media (screen and max-width: 719px) {
+  .prev-next a {
+    display: block;
+    padding: 0.3em 0.1em;
+    &.next {
+      text-align: right;
+    }
+  }
+}
 
+@media (screen and min-width: 720px) {
+  .prev-next {
+    display: flex;
+    justify-content: space-between;
+    margin: 5em 0 3em 0;
+    .prev::before {
+      content: '« ';
+    }
+    .next::after {
+      content: ' »'
+    }
+  }
+}

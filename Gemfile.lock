@@ -85,6 +85,7 @@ DEPENDENCIES
   jekyll (~> 3.4)
   jekyll-feed (~> 0.6)
   jekyll-haml-markup
+  jekyll-seo-tag
   jekyll-sitemap
   jekyll-tagging
   jekyll-theme-minimal

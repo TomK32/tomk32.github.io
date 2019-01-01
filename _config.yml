@@ -52,6 +52,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-haml-markup
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock

@@ -17,6 +17,7 @@ group :jekyll_plugins do
   gem 'jekyll-theme-minimal'
   gem "jekyll-tagging"
   gem 'jekyll-haml-markup'
+  gem 'jekyll-seo-tag'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

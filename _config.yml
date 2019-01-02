@@ -23,15 +23,8 @@ defaults:
       type: 'posts'
     values:
       layout: 'post'
-  -
-    scope:
-      type: 'crochet'
-    values:
-      layout: 'crochet'
 collections:
   presentations:
-    output: true
-  crochet:
     output: true
 
 profile_image: /assets/tomk32.jpg

@@ -4,7 +4,7 @@ tags:
   - stimulusjs
 ---
 
-Here's a small stimulusjs component at I wrote for [budget fox](https://budget-fox.com?utm_source=tomk32.githbub.io).
+Here's a small stimulusjs component at I wrote for my [personal budgeting software Budget-Fox](https://budget-fox.com?utm_campagin=stimulusjs-calcuator&utm_source=tomk32.de).
 
 It calulates the value of an input with basic arithmetic like 2 + 10/3
 and shows the result in the `result` target.

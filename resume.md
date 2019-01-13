@@ -14,10 +14,12 @@ To learn more about my previous work and projects, have a look at my [clients]({
 * Javascript, Coffeescript, jQuery, nodejs, backbonejs, responsive design, some angularjs ...
 * HTML, CSS, HAML, SASS, LaTeX...
 * Amazon EC2 (e.g. autoscaling)
+* Apache, nginx and all that server stuff
 * git (since 2008)
 * scrum, agile development
 * Python, Lua, some C ([Arduino, IoT, ESP8266]({% link maker.md %}) and C# (Unity3D)
 * running a [hackerspace](https://devlol.org) (together with awesome people)
+* Linux which I first installed in 1998 or 1997 and returned to in 2014 after a decade on Macs.
 
 ## Interesting weblinks
 * [Linkedin](https://www.linkedin.com/in/thomas-r-koll-78150775/)

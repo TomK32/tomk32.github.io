@@ -16,7 +16,7 @@ on MongoDB 3.2, only after the upgrade they system got a bit picky.
 and in the replica set I used those short names rather than IPs. A bad choice.
 Make sure you can successfully connect to each db server from each other db server.
 
-**Mongoid didn't know the replica-set name** wasn't an issue on 3.2 but suddenly was now, an easy fix in the `mongoid.yml`.
+Mongoid didn't know the **replica-set name**. This wasn't an issue on 3.2 but suddenly was now, an easy fix in the `mongoid.yml`.
 
 As always when upgrade a replica set, start with the secondaries: `db.shutdownServer()`, upgrade the software and start it before moving
 to the next and doing the primary last.

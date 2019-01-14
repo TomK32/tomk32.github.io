@@ -4,7 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Thomas R. Koll
-email: tomk32@gmail.com
+email: tomk32@tomk32.de
 description: Ruby on Rails developer available for projects remotely and in Austria
 keywords: Ruby on Rails,Ruby,Javascript,developer,freelancer,linz,austria,germany,hacker
 motto: just a geek trying to change the world

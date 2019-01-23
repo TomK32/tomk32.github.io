@@ -24,5 +24,5 @@ To learn more about my previous work and projects, have a look at my [clients]({
 ## Interesting weblinks
 * [Linkedin](https://www.linkedin.com/in/thomas-r-koll-78150775/)
 * [Github](http://github.com/TomK32)
-* [Stackoverflow](http://stackoverflow.com/users/story/336392')
+* [Stackoverflow](http://stackoverflow.com/users/story/336392)
 * [Thingiverse](http://www.thingiverse.com/TomK32)

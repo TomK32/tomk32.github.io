@@ -25,3 +25,5 @@ You might have to repeat this a few times or slam it on a different side.
 I had the issue twice and that's how I solved it both times.
 
 If it worked for you, please do send me a mail and let me know.
+
+*Update 2019-03-26:* It happened again, but a 5s exposure and and whack on the knee loosened the shutter.

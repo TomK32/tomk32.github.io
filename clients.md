@@ -8,8 +8,11 @@ title: Clients
   [contact me](mailto:{{ site.email }}) if you have an idea and the funds to realize it. I do offer reasonable rates for prototypes
   and I'm open to low rates if some equity is part of it.
 
-## [Naiku](https://naiku.net) <small class="meta">(since 2010, Ruby On Rails, nodejs)</small>
-Delivered the prototype for their assessment platform and kept on going. Not a unicorn but a solid success with interesting aspects like a short peaks during the school day.
+## [TeamEcho](https://www.teamecho.de) <small class="meta">(Growth Hacker, 2018/19)</small>
+Something new for a change, half a year of growth hacking with a few small successes.
+
+## [Naiku](https://naiku.net) <small class="meta">(2010 until 2018, Ruby On Rails, nodejs)</small>
+Delivered the prototype for their assessment platform and kept on going. It is used by teachers across the USA to create tests for their students who get their feedback much faster if not instantly than with traditional paper tests. Not a unicorn but a solid success with interesting aspects devop-wise like a short peaks of traffic during the school day. I was able to use my full skill-set: Ruby on Rails, node.js, MongoDB, front-end development with backbone.js and learned a lot about AWS where my decades of using Linux on my personal machine came quite handy.
 
 ## [lomography](https://lomography.com) <small class="meta">(2017), Ruby on Rails)</small>
 It's very rare to return to a company after 9 years, I did. Didn't find any of my 2008 code yet :(

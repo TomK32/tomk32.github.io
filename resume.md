@@ -9,6 +9,9 @@ Besides work I enjoy programming small video games, making electronics projects 
 
 To learn more about my previous work and projects, have a look at my [clients]({{ 'clients' | relative_url }}).
 
+If you are interested in me working for you, I have a wide range of private projects, from web-apps to mobile games and some dating back to 2001,
+of which I'm willing to share the codebase in confidiality. This should allow you to get a good impression of my work and style.
+
 ## My skillset includes but is not limited to:
 * Ruby on Rails since 2007
 * Javascript, Coffeescript, jQuery, nodejs, backbonejs, responsive design, some angularjs ...

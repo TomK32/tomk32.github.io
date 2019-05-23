@@ -17,3 +17,4 @@ focus on collaboration (think couples and families) and double-entry accounting 
 Noch ein persönliches Projekt habe ich im April 2019 gestartet, der <a href="https://checklisten.guru?utm_source=tomk32.de&utm_campaign=checklisten">Checklisten Guru</a> entstand aus einer unvollständigen To-Do App aus dem Vorjahr und soll
 Checklisten als Vorlagen für jeden Lebensbereich bieten.
 
+Please visits my friends' website <a href="https://www.hacker-stockphotos.com/">hacker stockphotos</a>.

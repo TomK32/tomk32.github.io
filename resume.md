@@ -5,7 +5,7 @@ title: Resume
 
 Born in 1982 in the Bavarian alps, studied at University of Salzburg before professional work drew me in. In those years I was an active Wikipedia admin, published a bi-weekly PDF magazine and many more things. I started programming in the last 90ies, enjoyed writing small websites in PHP before moving on to Ruby on Rails and larger web applications.
 
-Besides work I enjoy programming small video games, making electronics projects (arduino, ESP8266, IoT, etc), photography and recently started sailing. In 2015 life changed with our first child.
+Besides work I enjoy programming small video games, making electronics projects (arduino, ESP8266, IoT, etc), photography, [crochet](https://haekeln.tomk32.de), and recently started sailing. In 2015 life changed with our first child.
 
 To learn more about my previous work and projects, have a look at my [clients]({{ 'clients' | relative_url }}).
 

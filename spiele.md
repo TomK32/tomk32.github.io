@@ -9,4 +9,25 @@ title: Meine Brett- und Kartenspiele
 * Do De Li Do
 * Carcassone (Mit zwei Erweiterungen)
 * Die Verbotene Insel
+* Lotus
+* Löwenherz
+* Pueblo
+* Jetzt schlägt's 13
+* Heckmeck
+* Alhambra
+* Niagara
+* Untergang von Pompeji
+* Babel
+* ...
+
+## Kinderspiele
+* Schatzjagd
+* Uno
+* Rategarten
+* Die Ritter von der Haselnuss
+* Corsaro
+* Piratatak
+* Elfer Raus Junior
+* Lauf Entchen Lauf
+* Wo ist die Kokuksnuss?
 * ...

@@ -2,7 +2,7 @@
 title: Meine Brett- und Kartenspiele
 ---
 
-* Munchkin (Mit Erweiterung 1 bis 3)
+* Munchkin (Mit Erweiterungen 1 bis 3)
 * Magic Maze (Mit der Erweiterung Zwielichtige Gestalten und einer kleine Promo Erweiterung)
 * Lovecraft Letter
 * Kingdom Builder (Mit der Erweiterung Nomaden)
@@ -15,9 +15,21 @@ title: Meine Brett- und Kartenspiele
 * Jetzt schlägt's 13
 * Heckmeck
 * Alhambra
+* Carolus Magnus
+* Abilene
+* Kingdomino
 * Niagara
 * Untergang von Pompeji
 * Babel
+* Dixit
+* El Grande
+* Eiszeit
+* Jenseits von Theben
+* Mississippi Queen
+* Canyon
+* Das MAD Spiel
+* Schweinepoker
+* Kakerlakenpoker
 * ...
 
 ## Kinderspiele
@@ -30,4 +42,10 @@ title: Meine Brett- und Kartenspiele
 * Elfer Raus Junior
 * Lauf Entchen Lauf
 * Wo ist die Kokuksnuss?
+* Das Kleine Gespenst
+* Dschungel Trio
+* Hase und Igel (1979)
+* Geistertreppe
+* Billy Biber
 * ...
+

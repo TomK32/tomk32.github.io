@@ -5,8 +5,9 @@ title: Meine Brett- und Kartenspiele
 * Munchkin (Mit Erweiterungen 1 bis 3)
 * Magic Maze (Mit der Erweiterung Zwielichtige Gestalten und einer kleine Promo Erweiterung)
 * Lovecraft Letter
-* Kingdom Builder (Mit der Erweiterung Nomaden)
 * Do De Li Do
+* Halt Mal Kurz
+* Kingdom Builder (Mit der Erweiterung Nomaden)
 * Carcassone (Mit zwei Erweiterungen)
 * Die Verbotene Insel
 * Lotus
@@ -30,6 +31,10 @@ title: Meine Brett- und Kartenspiele
 * Das MAD Spiel
 * Schweinepoker
 * Kakerlakenpoker
+* Adel Verpflichtet
+* Zooloretto
+* Capitol
+* Turbo Taxi
 * ...
 
 ## Kinderspiele

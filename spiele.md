@@ -2,7 +2,7 @@
 title: Meine Brett- und Kartenspiele
 ---
 
-* Munchkin (Mit Erweiterungen 1 bis 3)
+* Munchkin (Mit Erweiterungen 1, 2, 3 und 8)
 * Magic Maze (Mit der Erweiterung Zwielichtige Gestalten und einer kleine Promo Erweiterung)
 * Lovecraft Letter
 * Do De Li Do
@@ -17,7 +17,12 @@ title: Meine Brett- und Kartenspiele
 * Zooloretto (Spiel des Jahres 2007)
 * Dixit (Spiel des Jahres 2010)
 * Kingdom Builder (Spiel des Jahres 2012, Mit der Erweiterung Nomaden)
+* Camel Cup (Spiel des Jahres 2014)
 * Kingdomino (Spiel des Jahres 2017)
+* Freitag (Solo Spiel)
+* Siedler von Catan Das Würfelspiel
+* Siedler von Catan Das Kartenspiel
+* Lost Cities
 * Die Verbotene Insel
 * Lotus
 * Löwenherz
@@ -36,6 +41,10 @@ title: Meine Brett- und Kartenspiele
 * Kakerlakenpoker
 * Capitol
 * Turbo Taxi
+* Twister
+* Wizard
+* Leg' das Rohr
+* Quoridor
 * ...
 
 ## Kinderspiele
@@ -53,6 +62,11 @@ title: Meine Brett- und Kartenspiele
 * Dschungel Trio
 * Hase und Igel (Spiel des Jahre 1979)
 * Geistertreppe
+* Billy Biber
+* Hampelino
+* Nur die Ziege zählt
+* Cocotaki
+* Concerto Grosso
 * Billy Biber
 * ...
 

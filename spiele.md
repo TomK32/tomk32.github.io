@@ -7,15 +7,17 @@ title: Meine Brett- und Kartenspiele
 * Lovecraft Letter
 * Do De Li Do
 * Halt Mal Kurz
-* Carcassone (Mit zwei Erweiterungen)
+* Carcassone (Mit zwei Erweiterungen, Hauptspiel doppelt)
 * Sherlock Holmes Criminal-Cabinet (Spiel des Jahres 1985)
 * Adel Verpflichtet (Spiel des Jahres 1990)
 * El Grande (Spiel des Jahres 1996)
 * Mississippi Queen (Spiel des Jahres 1997)
+* Regatta
 * Alhambra (Spiel des Jahres 2003)
 * Niagara (Spiel des Jahres 2005)
 * Zooloretto (Spiel des Jahres 2007)
 * Dixit (Spiel des Jahres 2010)
+* Concept (As d'Or 2014)
 * Kingdom Builder (Spiel des Jahres 2012, Mit der Erweiterung Nomaden)
 * Camel Cup (Spiel des Jahres 2014)
 * Kingdomino (Spiel des Jahres 2017)
@@ -35,6 +37,7 @@ title: Meine Brett- und Kartenspiele
 * Babel
 * Eiszeit
 * Jenseits von Theben
+* Candamir
 * Canyon
 * Das MAD Spiel
 * Schweinepoker
@@ -53,6 +56,7 @@ title: Meine Brett- und Kartenspiele
 * Rategarten
 * Die Ritter von der Haselnuss
 * Corsaro
+* Memoarrr
 * Piratatak
 * Elfer Raus Junior
 * Der unendliche Fluss
@@ -68,5 +72,6 @@ title: Meine Brett- und Kartenspiele
 * Cocotaki
 * Concerto Grosso
 * Billy Biber
+* Anaconda
 * ...
 

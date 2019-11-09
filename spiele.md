@@ -9,8 +9,9 @@ title: Meine Brett- und Kartenspiele
 * Halt Mal Kurz
 * Carcassone (Mit zwei Erweiterungen, Hauptspiel doppelt)
 * Sherlock Holmes Criminal-Cabinet (Spiel des Jahres 1985)
+* Die drei Magier (Schönes Spiel Auszeichung 1985)
 * Adel Verpflichtet (Spiel des Jahres 1990)
-* El Grande (Spiel des Jahres 1996)
+* El Grande mit Erweiterung König und Intrigant (Spiel des Jahres 1996)
 * Mississippi Queen (Spiel des Jahres 1997)
 * Regatta
 * Alhambra (Spiel des Jahres 2003)
@@ -22,6 +23,7 @@ title: Meine Brett- und Kartenspiele
 * Camel Cup (Spiel des Jahres 2014)
 * Kingdomino (Spiel des Jahres 2017)
 * Freitag (Solo Spiel)
+* Siedler von Catan (alte Ausgabe) mit Erweiterung für sechs Spieler
 * Siedler von Catan Das Würfelspiel
 * Siedler von Catan Das Kartenspiel
 * Lost Cities
@@ -48,6 +50,7 @@ title: Meine Brett- und Kartenspiele
 * Wizard
 * Leg' das Rohr
 * Quoridor
+* Repello
 * ...
 
 ## Kinderspiele

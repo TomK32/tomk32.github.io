@@ -22,10 +22,14 @@ title: Meine Brett- und Kartenspiele
 * Kingdom Builder (Spiel des Jahres 2012, Mit der Erweiterung Nomaden)
 * Camel Cup (Spiel des Jahres 2014)
 * Kingdomino (Spiel des Jahres 2017)
+* Flügelschlag (Kennerspiel des Jahres 2019)
 * Freitag (Solo Spiel)
 * Siedler von Catan (alte Ausgabe) mit Erweiterung für sechs Spieler
 * Siedler von Catan Das Würfelspiel
 * Siedler von Catan Das Kartenspiel
+* Siedler von Catan - Historische Szenarien: Alexander der Große und Cheops
+* Funkenschlag - Die ersten Funken
+* Cartagena (Teil 2)
 * Lost Cities
 * Die Verbotene Insel
 * Lotus
@@ -69,6 +73,12 @@ title: Meine Brett- und Kartenspiele
 * Dschungel Trio
 * Hase und Igel (Spiel des Jahre 1979)
 * Geistertreppe
+* Das Magische Labyrinth
+* Fluss der Drachen
+* Make 'n' Break Junior
+* Monkey Beach
+* Kayanak
+* Da ist der Wurm drin
 * Billy Biber
 * Hampelino
 * Nur die Ziege zählt

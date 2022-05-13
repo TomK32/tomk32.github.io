@@ -2,7 +2,7 @@
 title: Meine Brett- und Kartenspiele
 ---
 
-* Munchkin (Mit Erweiterungen 1, 2, 3 und 8)
+* Munchkin (Mit Erweiterungen 1,2,3,4,5,6,7,8)
 * Magic Maze (Mit der Erweiterung Zwielichtige Gestalten und einer kleine Promo Erweiterung)
 * Lovecraft Letter
 * Do De Li Do
@@ -29,6 +29,7 @@ title: Meine Brett- und Kartenspiele
 * Siedler von Catan Das Kartenspiel
 * Siedler von Catan - Historische Szenarien: Alexander der Große und Cheops
 * Funkenschlag - Die ersten Funken
+* Eschnapur (2000)
 * Cartagena (Teil 2)
 * Lost Cities
 * Die Verbotene Insel

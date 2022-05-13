@@ -25,7 +25,6 @@ of which I'm willing to share the codebase in confidiality. This should allow yo
 * Linux which I first installed in 1998 or 1997 and returned to in 2014 after a decade on Macs.
 
 ## Interesting weblinks
-* [Linkedin](https://www.linkedin.com/in/thomas-r-koll-78150775/)
 * [Github](http://github.com/TomK32)
 * [Stackoverflow](http://stackoverflow.com/users/story/336392)
 * [Thingiverse](http://www.thingiverse.com/TomK32)

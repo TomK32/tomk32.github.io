@@ -1,5 +1,6 @@
 ---
 title: Meine Brett- und Kartenspiele
+skip_nav: true
 ---
 
 * Munchkin (Mit Erweiterungen 1,2,3,4,5,6,7,8)

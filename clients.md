@@ -15,7 +15,7 @@ Back to programming, pro bono I work on a Ruby on Rails app to manage the events
 Need a break from programming and turn a hooby into a job, first servicing hundreds of e-Bikes for a rental company and in Spring worked in a regular bike repair shop.
 
 ## Netural GmbH <small class="meta">(Senior Webdeveloper, Jan 2020 - July 2021</small>
-Migration and then further development of a Ruby on Rails webshop system, for some clients with a legacy PHP shop, between AWS accounts.
+Migration between AWS accounts, and then further development of a Ruby on Rails webshop system, for some clients this included a legacy PHP shop which I also migrated.
 
 ## [TeamEcho](https://www.teamecho.de) <small class="meta">(Growth Hacker, 2018/19)</small>
 Something new for a change, half a year of growth hacking with a few small successes.

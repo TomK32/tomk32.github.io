@@ -22,7 +22,7 @@ of which I'm willing to share the codebase in confidiality. This should allow yo
 * importing data from cvs, json, xml variants, ...
 * Linux user since 1998 with a decade long break on macs
 * Amazon serices like
-  * EC2 (Autosclaing), Elastic Beanstalk, EKS, Lambda
+  * EC2 (Autoscaling), Elastic Beanstalk, EKS, Lambda
   * RDS, S3, Cloudfront, ElastiCache, Redis, EBS
   * Route 53, VPC, Elastic Load Balancer, SNS
   * firm knowledge of aws-cli and how to automate user triggered processes like backups, creating resources, use of snapshots for various things

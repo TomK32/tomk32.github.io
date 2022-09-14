@@ -3,7 +3,7 @@ title:
 layout: home
 ---
 
-# Ruby on Rails freelance webdeveloper in Linz (Österreich)
+# Ruby on Rails freelance webdeveloper in Linz, Österreich
 {:.intro}
   You are looking for a Ruby on Rails developer to create a prototype of your new idea, or to join your small team remotely? Or did you run into an emergency and need help quick?
   [Read the resume]({{ 'resume.html' | relative_url }}) and [send me an email](mailto:tomk32@tomk32.de).

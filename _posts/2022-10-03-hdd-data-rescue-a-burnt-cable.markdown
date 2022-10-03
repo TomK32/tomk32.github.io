@@ -18,15 +18,15 @@ You'll see on the photos that the ROM isn't that perfectly on its pads, but I us
 
 Here's a few photos with details of the damage, chips etc.
 
-![The smoke makes it look worse than it is, except for the plastic connector the PCB might be fine and re-usable (I will not)]({{site.url}}/assets/hdd-data-rescue/hdd-burnt-pcb.jpg)
-![Looks like the cable powering the HDD spontaneously developed a short?]({{site.url}}/assets/hdd-data-rescue/burnt-power-cable.jpg)
-![It was very dusty after all]({{site.url}}/assets/hdd-data-rescue/dusty-hdd.jpg)
-![The burnt PCB]({{site.url}}/assets/hdd-data-rescue/burnt-hdd-pcb.jpg)
-![The HDDs in comparison, look at all that dust!]({{site.url}}/assets/hdd-data-rescue/hdd-in-comparison.jpg)
-![In case of this PCB the ROM was located at the corner]({{site.url}}/assets/hdd-data-rescue/hdd-pcb-original-rom.jpg)
-![The revisions are etched into the PCB. Note that the numbers on the HDD sticker might be the same but the PCB revisions still be different like REV A vs REV B]({{site.url}}/assets/hdd-data-rescue/hdd-pcb-partnumbers-withs-revisions.jpg)
-![The meaty side of the PCBs in comparison. Different chips but all we care about is the revision]({{site.url}}/assets/hdd-data-rescue/hdd-pcbs-in-comparison.jpg)
-![Here's the ROM chip de-soldered]({{site.url}}/assets/hdd-data-rescue/hdd-pcb-without-the-rom.jpg)
-![And the ROM soldered onto the replacement PCB. Not the most perfect job but it will do for the rescue oepration]({{site.url}}/assets/hdd-data-rescue/hdd-pcb-with-swapped-rom.jpg)
+{% gallery_image hdd-data-rescue|hdd-burnt-pcb.jpg|The smoke makes it look worse than it is, except for the plastic connector the PCB might be fine and re-usable (I will not)) %}
+{% gallery_image hdd-data-rescue|burnt-power-cable.jpg|Looks like the cable powering the HDD spontaneously developed a short? %}
+{% gallery_image hdd-data-rescue|dusty-hdd.jpg|It was very dusty after all %}
+{% gallery_image hdd-data-rescue|burnt-hdd-pcb.jpg|The burnt PCB %}
+{% gallery_image hdd-data-rescue|hdd-in-comparison.jpg|The HDDs in comparison, look at all that dust! %}
+{% gallery_image hdd-data-rescue|hdd-pcb-original-rom.jpg|In case of this PCB the ROM was located at the corner %}
+{% gallery_image hdd-data-rescue|hdd-pcb-partnumbers-withs-revisions.jpg|The revisions are etched into the PCB. Note that the numbers on the HDD sticker might be the same but the PCB revisions still be different like REV A vs REV B %}
+{% gallery_image hdd-data-rescue|hdd-pcbs-in-comparison.jpg|The meaty side of the PCBs in comparison. Different chips but all we care about is the revision %}
+{% gallery_image hdd-data-rescue|hdd-pcb-without-the-rom.jpg|Here's the ROM chip de-soldered %}
+{% gallery_image hdd-data-rescue|hdd-pcb-with-swapped-rom.jpg|And the ROM soldered onto the replacement PCB. Not the most perfect job but it will do for the rescue operation %}
 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HDD Data Rescue a burnt cable"
+title: "HDD Data Rescue - Fixing a HDD with a burnt cable"
 tags:
  - data rescue
  - HDD

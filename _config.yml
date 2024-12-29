@@ -45,6 +45,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-haml-markup
   - jekyll-seo-tag
+  - ./_plugins/remove-twitter
 exclude:
   - Gemfile
   - Gemfile.lock

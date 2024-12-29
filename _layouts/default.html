@@ -23,15 +23,6 @@ layout: compress
           <a href="{{ site.base_url }}/">{{ site.title }}</a>
         </div>
         <span class="site-description">{{ site.description }}</span>
-        <div>
-        {% if hide_profiles != true %}
-        {% for profile in site.external_profiles %}
-        <a href="{{ profile[1] }}" title="{{ profile[0] }}" class="profile {{ profile[0] }}">
-          <span>{{ profile[0] }}</span>
-        </a>
-        {% endfor %}
-        {% endif %}
-        </div>
       </div>
     </div>
 
@@ -55,6 +46,15 @@ layout: compress
     </div>
 
     <footer>
+      <div>
+        {% if hide_profiles != true %}
+        {% for profile in site.external_profiles %}
+        <a href="{{ profile[1] }}" title="{{ profile[0] }}" class="profile {{ profile[0] }}">
+          <span>{{ profile[0] }}</span>
+        </a>
+        {% endfor %}
+        {% endif %}
+      </div>
     <div class="inner">
       &copy; {{ site.time | date: '%Y' }} {{ site.title }}
       &bull;

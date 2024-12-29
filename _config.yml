@@ -33,7 +33,6 @@ external_profiles:
   github: https://github.com/TomK32
   stackoverflow: https://stackoverflow.com/users/story/336392
   thingiverse: https://www.thingiverse.com/TomK32
-  twitter: https://twitter.com/TomK32
 
 # Build settings
 markdown: kramdown

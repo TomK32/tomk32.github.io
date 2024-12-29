@@ -1,3 +1,6 @@
+@use "sass:color";
+@use "sass:math";
+
 $fa-font-path: '/assets/fonts/';
 
 $color-link: #3333CC;
@@ -28,12 +31,12 @@ a, a:visited {
   color: $color-link;
   &:hover, &:active {
     text-decoration: underline;
-    color: $color-link + #222222;
+    color: color.adjust($color-link, $whiteness: 20%);
   }
 }
 
 p, ul, ol, dl {
-  margin: $box-padding / 4 0 $box-padding / 2 0;
+  margin: math.div($box-padding, 4) 0 math.div($box-padding, 2) 0;
 }
 
 h1, h2, h3 {
@@ -133,7 +136,7 @@ footer {
     line-height: 1.6em;
   }
   .inner {
-    padding: ($box-padding / 4) ($box-padding / 2);
+    padding: math.div($box-padding, 4) math.div($box-padding, 2);
   }
   nav .inner {
     padding-bottom: 0;
@@ -196,7 +199,7 @@ footer {
     text-align: center;
     ul {
       padding: 0;
-      margin: $box-padding / 4 auto;
+      margin: math.div($box-padding, 4) auto;
       li {
         display: inline;
         margin: 0 1em 0 0;

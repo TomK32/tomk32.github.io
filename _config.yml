@@ -40,6 +40,7 @@ markdown: kramdown
 highlighter: rouge
 sass:
   style: compressed
+  sass_dir: _sass
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -58,7 +59,6 @@ exclude:
   - reveal.js/plugin/markdown/example.html
   - reveal.js/css/theme/README.md
 
-theme: jekyll-theme-minimal
 tag_page_layout: tag_page
 tag_page_dir: tag
 

@@ -10,10 +10,11 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll"
 gem 'jekyll-sitemap'
+gem 'sass-embedded', force_ruby_platform: true
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-feed"
   gem 'jekyll-theme-minimal'
   gem "jekyll-tagging"
   gem 'jekyll-haml-markup'
@@ -25,4 +26,3 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'rack-jekyll'
 gem 'rake'
-gem 'puma'

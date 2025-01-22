@@ -11,6 +11,10 @@ source "https://rubygems.org"
 gem "jekyll"
 gem 'jekyll-sitemap'
 gem 'sass-embedded', force_ruby_platform: true
+gem 'jekyll-compose'
+gem 'csv'
+gem 'logger'
+gem 'base64'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
